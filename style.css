@@ -93,7 +93,13 @@ img {
 }
 
 
-/* Please ❤ this if you like it! */
+@media screen and (max-width: 600px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
